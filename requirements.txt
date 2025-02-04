@@ -1,0 +1,5 @@
+python-dotenv #specifically used for calling environment variables
+pandas
+numpy
+pymongo #specifically for data_ingestion
+
