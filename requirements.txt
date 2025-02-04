@@ -3,3 +3,7 @@ pandas
 numpy
 pymongo #specifically for data_ingestion
 
+certifi
+
+# -e . 
+
