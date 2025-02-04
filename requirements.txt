@@ -3,9 +3,8 @@ pandas
 numpy
 pymongo #specifically for data_ingestion
 pymongo[srv]==3.6
-
-
 certifi
+scikit-learn
 
 # -e . 
 
