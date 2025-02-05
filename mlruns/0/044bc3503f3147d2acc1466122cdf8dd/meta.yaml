@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/KRISH_UDEMY_ALL/PRACTICE_PROJECTS/ML/NetworkSecurityProject/mlruns/0/044bc3503f3147d2acc1466122cdf8dd/artifacts
+end_time: 1738758035771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 044bc3503f3147d2acc1466122cdf8dd
+run_name: bold-sow-226
+run_uuid: 044bc3503f3147d2acc1466122cdf8dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738758028822
+status: 3
+tags: []
+user_id: mahen

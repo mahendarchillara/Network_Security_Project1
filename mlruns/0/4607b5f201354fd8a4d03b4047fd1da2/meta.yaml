@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/KRISH_UDEMY_ALL/PRACTICE_PROJECTS/ML/NetworkSecurityProject/mlruns/0/4607b5f201354fd8a4d03b4047fd1da2/artifacts
+end_time: 1738758028652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4607b5f201354fd8a4d03b4047fd1da2
+run_name: crawling-bird-1000
+run_uuid: 4607b5f201354fd8a4d03b4047fd1da2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738757965577
+status: 3
+tags: []
+user_id: mahen
