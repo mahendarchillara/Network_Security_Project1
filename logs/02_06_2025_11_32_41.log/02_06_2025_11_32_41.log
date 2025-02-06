@@ -1,0 +1,36 @@
+[2025-02-06 11:33:13,851] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:13,931] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 11:33:14,462] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/mahendarchillara464/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 11:33:14,871] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:14,902] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 11:33:15,041] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!
+[2025-02-06 11:33:15,740] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:15,766] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 11:33:16,103] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:16,103] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:16,131] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 11:33:16,131] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 11:33:16,188] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/mahendarchillara464/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 11:33:16,596] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/mahendarchillara464/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 11:33:16,614] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:16,619] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 11:33:16,625] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!
+[2025-02-06 11:33:16,629] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/mahendarchillara464/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 11:33:16,919] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:16,928] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 11:33:17,071] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:17,077] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 11:33:17,077] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!
+[2025-02-06 11:33:17,176] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:17,178] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:17,184] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 11:33:17,184] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!
+[2025-02-06 11:33:17,194] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 11:33:17,372] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/mahendarchillara464/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 11:33:17,801] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+4/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 11:33:17,817] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 11:33:17,817] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!
+[2025-02-06 11:33:18,354] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 11:33:18,356] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 11:33:18,361] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!

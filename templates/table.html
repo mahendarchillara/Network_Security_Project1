@@ -1,0 +1,104 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Data Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Predicted Data</h2>
+    {{ table | safe }}
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Upload a CSV File for Prediction</h2>
+    
+    <!-- File Upload Form -->
+    <form id="uploadForm">
+        <input type="file" id="fileInput" accept=".csv" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    <h2>Predicted Data</h2>
+    <div id="result"></div>
+
+    <h2>Train Model</h2>
+    <button id="trainButton">Train Model</button>
+
+    <script>
+        document.getElementById("uploadForm").addEventListener("submit", async function(event) {
+            event.preventDefault(); // Prevent default GET request
+            
+            const fileInput = document.getElementById("fileInput");
+            if (!fileInput.files.length) {
+                alert("Please select a CSV file.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+
+            try {
+                const response = await fetch("http://localhost:8000/predict", {
+                    method: "POST",  // ✅ Use POST instead of GET
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error("Prediction failed.");
+                }
+
+                const data = await response.text();
+                document.getElementById("result").innerHTML = data;
+            } catch (error) {
+                console.error("Error:", error);
+                alert("Prediction failed. Check console for details.");
+            }
+        });
+
+        document.getElementById("trainButton").addEventListener("click", async function() {
+            try {
+                const response = await fetch("http://localhost:8000/train", {
+                    method: "POST"  // ✅ Use POST instead of GET
+                });
+
+                if (!response.ok) {
+                    throw new Error("Training failed.");
+                }
+
+                alert("Training started successfully!");
+            } catch (error) {
+                console.error("Error:", error);
+                alert("Training failed. Check console for details.");
+            }
+        });
+    </script>
+</body>
+</html>

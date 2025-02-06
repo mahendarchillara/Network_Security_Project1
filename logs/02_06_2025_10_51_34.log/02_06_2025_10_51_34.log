@@ -1,0 +1,86 @@
+[2025-02-06 10:51:59,022] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 10:51:59,066] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 10:51:59,082] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 10:51:59,109] 107 dagshub -INFO -Accessing as mahendarchillara464
+[2025-02-06 10:51:59,633] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/mahendarchillara464/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 10:52:00,047] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/mahendarchillara464/Network_Security_Project1 "HTTP/1.1 200 OK"
+[2025-02-06 10:52:00,378] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 10:52:00,394] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 10:52:00,394] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!
+[2025-02-06 10:52:00,467] 1025 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-02-06 10:52:00,473] 107 dagshub -INFO -Initialized MLflow to track repo "mahendarchillara464/Network_Security_Project1"
+[2025-02-06 10:52:00,475] 107 dagshub -INFO -Repository mahendarchillara464/Network_Security_Project1 initialized!
+[2025-02-06 10:58:51,728] 41 root -INFO -Start data Ingestion
+[2025-02-06 10:59:10,794] 65 root -INFO -Performed train test split on the dataframe
+[2025-02-06 10:59:10,795] 67 root -INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-02-06 10:59:11,706] 75 root -INFO -Exporting train and test file path.
+[2025-02-06 10:59:11,969] 84 root -INFO -Exported train and test file path.
+[2025-02-06 10:59:11,971] 44 root -INFO -Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\02_06_2025_10_51_39\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\02_06_2025_10_51_39\\data_ingestion\\ingested\\test.csv')
+[2025-02-06 10:59:12,057] 54 root -INFO -Initiate the data Validation
+[2025-02-06 10:59:12,314] 32 root -INFO -Required number of columns:2
+[2025-02-06 10:59:12,314] 33 root -INFO -Data frame has columns:31
+[2025-02-06 10:59:12,315] 32 root -INFO -Required number of columns:2
+[2025-02-06 10:59:12,315] 33 root -INFO -Data frame has columns:31
+[2025-02-06 10:59:15,535] 63 root -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2025-02-06 10:59:15,535] 65 root -INFO -Starting data transformation
+[2025-02-06 10:59:15,608] 48 root -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2025-02-06 10:59:15,608] 53 root -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-02-06 10:59:23,739] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 10:59:26,918] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 10:59:26,919] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 10:59:26,925] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:10:24,538] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:10:24,542] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:10:24,542] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:10:24,614] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:10:24,614] 146 root -INFO -Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\02_06_2025_10_51_39\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9908441493107959, precision_score=0.9893510146674703, recall_score=0.992341797662233), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9754473574698294, precision_score=0.9701986754966887, recall_score=0.9807531380753138))
+[2025-02-06 11:14:06,571] 41 root -INFO -Start data Ingestion
+[2025-02-06 11:14:09,046] 65 root -INFO -Performed train test split on the dataframe
+[2025-02-06 11:14:09,046] 67 root -INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-02-06 11:14:09,048] 75 root -INFO -Exporting train and test file path.
+[2025-02-06 11:14:09,382] 84 root -INFO -Exported train and test file path.
+[2025-02-06 11:14:09,384] 44 root -INFO -Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\02_06_2025_10_51_39\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\02_06_2025_10_51_39\\data_ingestion\\ingested\\test.csv')
+[2025-02-06 11:14:09,420] 54 root -INFO -Initiate the data Validation
+[2025-02-06 11:14:09,676] 32 root -INFO -Required number of columns:2
+[2025-02-06 11:14:09,677] 33 root -INFO -Data frame has columns:31
+[2025-02-06 11:14:09,677] 32 root -INFO -Required number of columns:2
+[2025-02-06 11:14:09,677] 33 root -INFO -Data frame has columns:31
+[2025-02-06 11:14:10,411] 63 root -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2025-02-06 11:14:10,411] 65 root -INFO -Starting data transformation
+[2025-02-06 11:14:10,521] 48 root -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2025-02-06 11:14:10,522] 53 root -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-02-06 11:14:10,561] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:14:10,568] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:14:10,569] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:14:10,575] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:26:37,739] 868 urllib3.connectionpool -WARNING -Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /mahendarchillara464/Network_Security_Project1.mlflow/api/2.0/mlflow/runs/create
+[2025-02-06 11:28:44,432] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:28:44,440] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:28:44,440] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:28:44,513] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:28:44,513] 146 root -INFO -Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\02_06_2025_10_51_39\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9906485057938605, precision_score=0.9872366288492707, recall_score=0.9940840473276213), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9757647993643226, precision_score=0.9730586370839936, recall_score=0.9784860557768924))
+[2025-02-06 11:28:44,617] 41 root -INFO -Start data Ingestion
+[2025-02-06 11:28:51,752] 65 root -INFO -Performed train test split on the dataframe
+[2025-02-06 11:28:51,752] 67 root -INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-02-06 11:28:51,752] 75 root -INFO -Exporting train and test file path.
+[2025-02-06 11:28:52,178] 84 root -INFO -Exported train and test file path.
+[2025-02-06 11:28:52,179] 44 root -INFO -Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\02_06_2025_10_51_39\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\02_06_2025_10_51_39\\data_ingestion\\ingested\\test.csv')
+[2025-02-06 11:28:52,340] 54 root -INFO -Initiate the data Validation
+[2025-02-06 11:28:52,832] 32 root -INFO -Required number of columns:2
+[2025-02-06 11:28:52,832] 33 root -INFO -Data frame has columns:31
+[2025-02-06 11:28:52,832] 32 root -INFO -Required number of columns:2
+[2025-02-06 11:28:52,832] 33 root -INFO -Data frame has columns:31
+[2025-02-06 11:28:54,837] 63 root -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2025-02-06 11:28:54,837] 65 root -INFO -Starting data transformation
+[2025-02-06 11:28:54,940] 48 root -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2025-02-06 11:28:54,968] 53 root -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-02-06 11:28:55,016] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:28:55,016] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:28:55,016] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:28:55,031] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:41:56,346] 868 urllib3.connectionpool -WARNING -Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /mahendarchillara464/Network_Security_Project1.mlflow/api/2.0/mlflow/runs/create
+[2025-02-06 11:43:39,342] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:43:39,342] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:43:39,350] 46 root -INFO -Entered the save_object method of MainUtils class
+[2025-02-06 11:43:39,510] 50 root -INFO -Exited the save_object method of MainUtils class
+[2025-02-06 11:43:39,782] 146 root -INFO -Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\02_06_2025_10_51_39\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9917908178777743, precision_score=0.9896844660194175, recall_score=0.9939061547836685), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9716139497161395, precision_score=0.9724025974025974, recall_score=0.9708265802269044))
